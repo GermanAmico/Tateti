@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <titulo> Tateti </titulo>
+
+
+</head>
+<body>
+    <div id = "principal">
+      <section id ="comandos">
+          Jugador1:
+          <input type="text" id="jugador1"><br>
+          Jugador2:
+          <input type="text" id="jugador2"><br>
+          <input type="button" id="Iniciar" value="Iniciar" onclick="comenzar()"><br>
+          <label id= "turnoJugador"></label>
+
+      </section>
+      <section id = "tablero">
+          <input type="button" id="p0" onclick="colocar(this)">
+          <input type="button" id="p1" onclick="colocar(this)">
+          <input type="button" id="p2" onclick="colocar(this)"><br>
+
+          <input type="button" id="p3" onclick="colocar(this)">
+          <input type="button" id="p4" onclick="colocar(this)">
+          <input type="button" id="p5" onclick="colocar(this)"><br>
+
+          <input type="button" id="p6" onclick="colocar(this)">
+          <input type="button" id="p7" onclick="colocar(this)">
+          <input type="button" id="p8" onclick="colocar(this)"><br>
+
+      </section>
+
+
+    </div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
+<script src="Tateti.js"></script>
+<link rel="stylesheet" href="tateti.css">
+</body>
+
+
+
+</html>

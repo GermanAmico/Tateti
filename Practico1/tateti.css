@@ -1,0 +1,64 @@
+body{
+    background-color: darkgray;
+
+}
+div{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+}
+#comandos{
+    border: 1px mediumblue;
+    display: inline-block;    
+    min-height: 300px;
+    vertical-align: top;
+    width: 25%;
+
+}
+#tablero{
+    border: 1px mediumblue;
+    display: inline-block;  
+    margin: 0 auto;
+    text-align: center; 
+    width: 50%;
+}
+#tablero input{
+    font-size: 3em;
+    height: 80px;
+    margin: 10px;
+    width: 80px;
+}
+input[type="button"]#iniciar{
+    font-size: 0.8em;
+    margin-top: 2em;
+    padding: 0.7em;
+}
+input[type="text"]{
+    font-size: 1em;
+    margin: 0.3em;
+    padding: 0.1em;
+}
+label{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+.botonInicial{
+    
+    color: ghostwhite;
+    background-color: ghostwhite;
+}
+.botonJugador1{
+    font-size: 3em;
+    color: black;
+    background-color: ghostwhite;
+
+}
+.botonJugador2{
+    font-size: 3em;
+    color: black;
+    background-color: ghostwhite;
+
+}
